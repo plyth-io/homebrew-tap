@@ -2,27 +2,28 @@
 class Plyth < Formula
   desc "Review what your coding agent meant, not just what it typed"
   homepage "https://plyth.io"
-  version "0.1.1"
+  license "BUSL-1.1"
+  version "0.1.2"
 
   on_macos do
     on_arm do
-      url "https://github.com/plyth-io/plyth-cli/releases/download/v0.1.1/plyth-darwin-arm64"
-      sha256 "6dd421db400f4637f8a216dd78de07f3f7dedfd9886b347984ead851b1d28948"
+      url "https://github.com/plyth-io/plyth-cli/releases/download/v0.1.2/plyth-darwin-arm64"
+      sha256 "b25029d0e68ee71cab8c26e7dcc114afe2268255115f83ce635573005dd25a91"
     end
     on_intel do
-      url "https://github.com/plyth-io/plyth-cli/releases/download/v0.1.1/plyth-darwin-x64"
-      sha256 "b5627445c839b6bdc49036a0f0303da29c0e4272e4eb83fbb52a654d612bd7bc"
+      url "https://github.com/plyth-io/plyth-cli/releases/download/v0.1.2/plyth-darwin-x64"
+      sha256 "fe353c75c95c7387726f2b380805a2c7fe067722cf05ca319af106e622b41461"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/plyth-io/plyth-cli/releases/download/v0.1.1/plyth-linux-arm64"
-      sha256 "44485bc952cc575b586db154b7ca52401ca205d36e288f805dd84be5aa0677ed"
+      url "https://github.com/plyth-io/plyth-cli/releases/download/v0.1.2/plyth-linux-arm64"
+      sha256 "8ad1dc579b70b78ac2c6b48d0fbe32b1f1cbe5aeba1503f35608f66c12a56317"
     end
     on_intel do
-      url "https://github.com/plyth-io/plyth-cli/releases/download/v0.1.1/plyth-linux-x64"
-      sha256 "7ab9c0df5c618965cf025fe4e7b3cd69ea1876de45b13a40d163bc2c33f6c321"
+      url "https://github.com/plyth-io/plyth-cli/releases/download/v0.1.2/plyth-linux-x64"
+      sha256 "c2538e02f69111a330f140dbafc589d81bf0f6142a606b311e2ad5450e4fb4fd"
     end
   end
 
